@@ -1,0 +1,19 @@
+.contact-conteiner{
+    display: grid;
+    max-width: 400px;
+    min-width: 320px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 10fr 1fr;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    background-color: rgb(29, 27, 27);
+    color: rgb(177, 177, 177);
+    .conteiner-user-img{
+        width: 50px;
+        height: auto;
+        margin: 10px 20px 0 10px;
+    }
+}
+.conteiner-user-img:hover{
+    color: rgb(219, 117, 117);
+}
